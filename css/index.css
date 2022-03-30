@@ -1,0 +1,60 @@
+body{
+  background-color: #919191;
+  display: block;
+  justify-content: center;
+}
+h1, p, span{
+  align-self: center;
+}
+
+.icon{
+  width: auto;
+}
+.icon-m{
+  height: 8rem;
+}
+.icon-s{
+  height: 2rem;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.character-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+}
+.double-container{
+  display: flex;
+  justify-content: center;
+  /* position: fixed; */
+  background-color: #676767;
+  
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 20vh;
+  padding: 25px 5px;
+}
+.double-container h1{
+  color: #E1A58C;
+}
+.logoantik{
+  width: 150px;
+  order :3px solid rgb(100,73,36);
+  box-shadow : 8px 8px 5px black;
+  float: right;
+  position: absolute;
+  top: 100px;
+  left: 900px;
+}
+   
+  
