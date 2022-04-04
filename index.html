@@ -10,47 +10,68 @@
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core theme CSS -->
         <link href="css/index.css" rel="stylesheet" />
     </head>
     <body>
+        <!-- Header-->
         <div class="main-container">
             <div class="character-container">
-                <img class="icon icon-s" src="./image/icons8-home-32.png">
-                <img class="icon icon-s" src="./image/icons8-chercher-90.png">
-                <a href="inscription.html">
-                    <span>Se connecter</span>
-                </a>
-                <img class="icon icon-s" src="./image/icons8-utilisateur-30.png">
-            </div>
-            <div class="double-container">
-                <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-                    <div class="container">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mx-auto">
-                                <li class="Themes"><a class="nav-link text-uppercase" href="index.html">Mésopotamie</a></li>
-                                <li class="Themes"><a class="nav-link text-uppercase" href="about.html">Égyptiens</a></li>
-                                <li class="Themes"><a class="nav-link text-uppercase" href="products.html">Grecs</a></li>
-                                <img class="logoantyk" src="https://cdn.discordapp.com/attachments/952878878903369759/957909343615983656/logo_antyk_cut.png" alt="..." height="194" width="186">
-                                <li class="Themes"><a class="nav-link text-uppercase" href="store.html">Romains</a></li>
-                                <li class="Themes"><a class="nav-link text-uppercase" href="store.html">Carthaginois</a></li>
-                                <li class="Themes"><a class="nav-link text-uppercase" href="store.html">Autre</a></li>
-                            </ul>
-                        </div>
+                <div class="search">
+                    <img class="icon icon-s" src="./image/home.png">
+                    <img class="icon icon-s loupe" src="./image/icon.png">
+                    <div class="race">
+                        <form>
+                            <input type="search" onkeyup="search()" id="input-search" placeholder="Recherche...">
+                        </form>
                     </div>
-                </nav>
+                </div>
+                <div class="connect">
+                    <a href="inscription.html">
+                    <span>Se connecter</span>
+                    <img class="icon icon-s" src="./image/iconutilisateur.png"></a>
+                </div>
+            </div>
+            <!-- Accueil thème-->
+            <div class="double-container">
+                                <a class="themes" href="méesopotamie.html">Mésopotamie</a>
+                                <a class="themes" href="egypt.html">Égyptiens</a>
+                                <a class="themes" href="grecs.html">Grecs</a>
+                                <img class="logoantyk" src="https://cdn.discordapp.com/attachments/952878878903369759/957909343615983656/logo_antyk_cut.png" alt="..." height="194" width="186">
+                                <a class="themes" href="romains.html">Romains</a>
+                                <a class="themes" href="cartag.html">Carthaginois</a>
+                                <a class="themes" href="autre.html">Autre</a>
 
             </div>
         </div>      
-                        <h2 class="section-heading mb-4">
-                            <span class="section-heading-lower">Topics les plus</span>
-                            <img class="fire" src="https://cdn.discordapp.com/attachments/952878878903369759/957906329266159626/unknown.png" alt="..." height="65" width="65">
-                        </h2>
-                        <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!</p>
-                        <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="#!">Visit Us Today!</a></div>
-                    </div>
-                     <footer class="footer text-faded text-center py-5">
-                    </footer>
+                       
+        <!--Bloc gauche accueil-->
+        <div class = "Bloc-accueil">
+            <div class ="container-premier">
+                <div  class="titre-bloc">
+                    <h2 class="titre-bloc-g">Topics les plus</h2>
+                    <img class="fire" src="https://cdn.discordapp.com/attachments/952878878903369759/957906329266159626/unknown.png" alt="..." height="65" width="65">
+                </div>
+            </div>
+
+            <div class ="container-deuxieme">
+                <div  class="titre-bloc">
+                        <h2 class="titre-bloc-g">Les Actus</h2>
+                        <img class="fire" src="https://cdn.discordapp.com/attachments/960437682222297178/960437699242762270/unknown.png" alt="..." height="65" width="65">
+                </div>
+            </div>
+        </div>
+               
+    
+
+
+         <!--Footer-->       
+         <footer class="footer">
+            <a href="https://github.com/Samydj0/Forum-projet"> <img alt="Social" src="https://cdn.discordapp.com/attachments/960437682222297178/960453065008365618/unknown.png" width=75" height="75 ">
+            <a href="https://www.instagram.com/agent_1306/"> <img alt="Social" src="https://cdn.discordapp.com/attachments/960437682222297178/960453065209688104/unknown.png" width=75" height="75 ">
+            <a href="https://www.google.com/intl/fr/gmail/about/"> <img alt="Social" src="https://cdn.discordapp.com/attachments/960437682222297178/960453064614113300/unknown.png" width=75" height="75 ">
+            <a href="https://fr-fr.facebook.com"> <img alt="Social" src="https://cdn.discordapp.com/attachments/960437682222297178/960453064823832607/unknown.png" width=75" height="75 ">
+            <a href="https://twitter.com/Agent1306rc"> <img alt="Social" src="https://cdn.discordapp.com/attachments/960437682222297178/960453280096481321/unknown.png" width=75" height="75 ">
+         </footer>
     </body>
 </html>

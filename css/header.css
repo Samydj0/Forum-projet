@@ -1,0 +1,84 @@
+body{
+  background-color: #919191;
+  display: block;
+  justify-content: center;
+}
+
+h1, p{
+align-self: center;
+}
+.main-container, a>span{
+display: flex;
+flex-direction: row;
+}
+.search{
+display: flex;
+align-items: center;
+}
+#input-search{
+background-color: #676767;
+padding: 3vh;
+width: 14vw;
+border: none;
+font-size: 120%;
+color: #E1A58C; 
+}
+
+
+.search .icon.loupe{
+margin: 0 10px;
+}
+
+.connect a{
+display: flex;
+align-items: center;
+color: #E1A58C;
+font-size: 150%;
+}
+
+.connect .icon{
+margin-left: 10px;
+}
+
+.icon{
+width: auto;
+}
+.icon-m{
+height: 8rem;
+}
+.icon-s{
+height: 3rem;
+}
+
+.main-container{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/*text-align: center;*/
+}
+.character-container{
+width: 99%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: 0.5rem;
+}
+.double-container{
+display: flex;
+justify-content: center;
+/* position: fixed; */
+background-color: #676767;
+width: 100%;
+border: 1px solid black;
+/*border-radius: 5px;*/
+min-height: 20vh;
+padding: 25px 5px;
+}
+.double-container h1{
+color: #E1A58C;
+}
+.inscription, a{
+text-decoration: none;
+}
